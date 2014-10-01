@@ -1,0 +1,25 @@
+﻿Build started 2014/9/14 11:29:40.
+     1>Project "E:\Projects\OpenGL\calm3dx\libcalm3d\libcalm3d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\Projects\OpenGL\calm3dx\extern /I"E:\Projects\OpenGL\calm3dx\extern\glfw-3.0.4\include\GLFW" /I"E:\Projects\OpenGL\calm3dx\extern\glew-1.11.0\include\GL" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Object3D.cpp
+         Object3D.cpp
+     1>e:\projects\opengl\calm3dx\libcalm3d\object3d.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Projects\OpenGL\calm3dx\Debug.win32\libcalm3d.lib" /NOLOGO Debug.win32\Application.obj
+         Debug.win32\FileUtils.obj
+         Debug.win32\Log.obj
+         Debug.win32\calm3d.obj
+         Debug.win32\Director.obj
+         Debug.win32\Geometry.obj
+         Debug.win32\GLProgram.obj
+         Debug.win32\GLShader.obj
+         Debug.win32\GLView.obj
+         Debug.win32\Object3D.obj
+     1>calm3d.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libcalm3d.vcxproj -> E:\Projects\OpenGL\calm3dx\Debug.win32\libcalm3d.lib
+     1>Done Building Project "E:\Projects\OpenGL\calm3dx\libcalm3d\libcalm3d.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

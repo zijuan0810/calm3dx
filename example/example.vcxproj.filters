@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02">
+      <UniqueIdentifier>{72a1286d-1ae4-40a4-ac4e-928b86845095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03">
+      <UniqueIdentifier>{31e86050-ff50-4098-9b09-4ef118f77f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05">
+      <UniqueIdentifier>{74c71c85-a518-43ef-a888-d67eae8bddf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02\SimpleShader.h">
+      <Filter>02</Filter>
+    </ClInclude>
+    <ClInclude Include="03\Tessellation.h">
+      <Filter>03</Filter>
+    </ClInclude>
+    <ClInclude Include="05\SimpleData.h">
+      <Filter>05</Filter>
+    </ClInclude>
+    <ClInclude Include="05\SimpleUniform.h">
+      <Filter>05</Filter>
+    </ClInclude>
+    <ClInclude Include="05\SpinnyCube.h">
+      <Filter>05</Filter>
+    </ClInclude>
+    <ClInclude Include="05\SimpleTexture.h" />
+    <ClInclude Include="05\SimpleTextureCoord.h">
+      <Filter>05</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02\SimpleShader.cpp">
+      <Filter>02</Filter>
+    </ClCompile>
+    <ClCompile Include="03\Tessellation.cpp">
+      <Filter>03</Filter>
+    </ClCompile>
+    <ClCompile Include="05\SimpleData.cpp">
+      <Filter>05</Filter>
+    </ClCompile>
+    <ClCompile Include="05\SimpleUniform.cpp">
+      <Filter>05</Filter>
+    </ClCompile>
+    <ClCompile Include="05\SpinnyCube.cpp">
+      <Filter>05</Filter>
+    </ClCompile>
+    <ClCompile Include="05\SimpleTexture.cpp" />
+    <ClCompile Include="05\SimpleTextureCoord.cpp">
+      <Filter>05</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

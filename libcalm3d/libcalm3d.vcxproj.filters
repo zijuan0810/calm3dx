@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Director.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="GLView.cpp" />
+    <ClCompile Include="calm3d.cpp" />
+    <ClCompile Include="GLShader.cpp" />
+    <ClCompile Include="GLProgram.cpp" />
+    <ClCompile Include="base\FileUtils.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Log.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ApplicationInfo.h" />
+    <ClInclude Include="calm3d.h" />
+    <ClInclude Include="CMMacro.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Director.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="GLView.h" />
+    <ClInclude Include="GLShader.h" />
+    <ClInclude Include="GLProgram.h" />
+    <ClInclude Include="c3dmath.h" />
+    <ClInclude Include="base\FileUtils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h" />
+    <ClInclude Include="ObjectDefine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{ad532d28-0f49-4757-8ee6-a2fb0983e093}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

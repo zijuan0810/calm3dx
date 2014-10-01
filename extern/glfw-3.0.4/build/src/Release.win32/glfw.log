@@ -1,0 +1,12 @@
+﻿生成启动时间为 2014/8/12 10:07:39。
+     1>项目“E:\Projects\OpenGL\samlon3dx\extern\glfw-3.0.4\build\src\glfw.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/Projects/SB6/glfw-3.0.4/src/CMakeLists.txt
+     1>CUSTOMBUILD : CMake error : The source directory "E:/Projects/SB6/glfw-3.0.4" does not appear to contain CMakeLists.txt.
+         Specify --help for usage, or press the help button on the CMake GUI.
+         CMake is re-running because E:\Projects\SB6\glfw-3.0.4\build\src\CMakeFiles\generate.stamp dependency file is missing.
+     1>已完成生成项目“E:\Projects\OpenGL\samlon3dx\extern\glfw-3.0.4\build\src\glfw.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.18

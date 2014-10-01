@@ -1,0 +1,13 @@
+#version 410
+
+layout (triangles) in;
+layout (points, max_vertices = 6) out;
+
+void main()
+{
+	int i;
+	for (i = 0; i < gl_in.length(); i++) {
+		gl_Position = gl_in[i].gl_Position;
+		EmitVertex();
+	}
+}
