@@ -41,6 +41,7 @@ example/Debug.win32/
 libcalm3d/Debug.win32/
 extern/glew-1.11.0/build/vc12/Debug.win32/
 extern/glfw-3.0.4/build/src/Debug.win32/
+extern/glfw-3.0.4/build/src/Release.win32/
 
 # Ignore python compiled files
 *.pyc
